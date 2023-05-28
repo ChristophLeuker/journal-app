@@ -8,6 +8,7 @@ export default function EntrySection() {
       <EntryList
         headtitle="Hier könnte ihre Überschrift stehen"
         description="und hier steht dann ihr ganzer Text und so anderer kram"
+        date="datum hier"
       />
     </>
   );
