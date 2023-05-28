@@ -1,0 +1,21 @@
+.entryList__container {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 2px;
+  position: relative;
+}
+.entryList__svg {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.entryList__date {
+  text-align: center;
+  font-size: 10px;
+}

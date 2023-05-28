@@ -1,4 +1,6 @@
 import EntryForm from "./EntryForm";
+import "./EntryForm.css";
+import EntrySection from "./EntrySection";
 
 export default function Main() {
   return (
@@ -9,7 +11,7 @@ export default function Main() {
         motto="Motto:"
         notes="Notes:"
       />
-      <button type="submit">Create</button>
+      <EntrySection />
     </>
   );
 }
