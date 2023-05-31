@@ -11,11 +11,20 @@
   width: 20%;
   height: 40px;
   align-self: center;
-  background-color: #ff4a11;
+  background-color: var(--color-nemo);
   border-radius: 5px;
   margin-top: 20px;
+}
+.create__button:hover {
+  background-color: var(--color-nemo-dark);
+}
+.create__button:active {
+  background-color: var(--color-nemo-mid);
 }
 .header__form {
   text-align: center;
   margin-top: 0px;
+}
+.textarea {
+  resize: none;
 }

@@ -1,6 +1,6 @@
 .entryList__container {
   display: flex;
-  border: 1px solid black;
+
   flex-direction: column;
   margin-right: 20px;
   margin-left: 20px;
