@@ -7,12 +7,12 @@
 }
 
 .create__button {
-  border: solid black 1px;
   width: 20%;
   height: 40px;
   align-self: center;
   background-color: var(--color-nemo);
-  border-radius: 5px;
+  color: var(--color-foam);
+  border-radius: 20px;
   margin-top: 20px;
 }
 .create__button:hover {
