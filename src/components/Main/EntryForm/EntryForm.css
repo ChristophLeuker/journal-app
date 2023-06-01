@@ -7,15 +7,24 @@
 }
 
 .create__button {
-  border: solid black 1px;
   width: 20%;
   height: 40px;
   align-self: center;
-  background-color: #ff4a11;
-  border-radius: 5px;
+  background-color: var(--color-nemo);
+  color: var(--color-foam);
+  border-radius: 20px;
   margin-top: 20px;
+}
+.create__button:hover {
+  background-color: var(--color-nemo-dark);
+}
+.create__button:active {
+  background-color: var(--color-nemo-mid);
 }
 .header__form {
   text-align: center;
   margin-top: 0px;
+}
+.textarea {
+  resize: none;
 }

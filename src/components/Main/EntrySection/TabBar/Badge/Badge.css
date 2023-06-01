@@ -1,0 +1,9 @@
+.badge {
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  background-color: var(--color-water-10);
+}
+.badge__active {
+  background-color: var(--color-nemo);
+}

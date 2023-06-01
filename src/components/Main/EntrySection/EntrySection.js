@@ -1,20 +1,24 @@
 import TabBar from "./TabBar/TabBar";
 import EntryList from "./EntryList/EntryList";
+import Divider from "./Divider/Divider";
 
-export default function EntrySection() {
+export default function EntrySection({ entries }) {
   return (
     <>
       <TabBar />
-      <EntryList
-        headtitle="Hier könnte ihre Überschrift stehen"
-        description="und hier steht dann ihr ganzer Text und so anderer kram"
-        date="datum hier"
-      />
-      <EntryList
-        headtitle="Hier könnte ihre Überschrift stehen"
-        description="und hier steht dann ihr ganzer Text und so anderer kram"
-        date="datum hier"
-      />
+      {entries.map((entry) => {
+        return (
+          <>
+            <EntryList
+              headtitle={entry.motto}
+              description={entry.notes}
+              date={entry.date}
+              key={entry.id}
+            />
+            <Divider />
+          </>
+        );
+      })}
     </>
   );
 }
