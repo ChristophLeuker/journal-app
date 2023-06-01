@@ -1,17 +1,14 @@
 import { ReactComponent as StarFilled } from "./star-filled.svg";
 import { ReactComponent as Star } from "./star.svg";
 import "./FavButton.css";
-import { useState } from "react";
 
-export default function FavButton() {
-  const [isFavorite, setIsFavorite] = useState(false);
-
+export default function FavButton({ onToggleFavorite, isFavorite, id }) {
   return (
     <>
       <button
         type="button"
         className="button-svg"
-        onClick={() => setIsFavorite(!isFavorite)}
+        onClick={() => onToggleFavorite(id)}
       >
         {isFavorite ? <StarFilled /> : <Star />}
       </button>
