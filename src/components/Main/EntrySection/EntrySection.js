@@ -8,12 +8,14 @@ export default function EntrySection({
   onToggleFavorite,
   onShowFavoritesEntries,
   onShowAllEntries,
+  filter,
 }) {
   return (
     <>
       <TabBar
         onShowFavoritesEntries={onShowFavoritesEntries}
         onShowAllEntries={onShowAllEntries}
+        filter={filter}
       />
       {entries.map((entry) => {
         return (

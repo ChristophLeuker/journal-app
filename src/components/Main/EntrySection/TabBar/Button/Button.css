@@ -12,3 +12,15 @@
   padding: 10px 16px;
   border-radius: 999px;
 }
+
+.tab-button:hover {
+  background-color: var(--color-water);
+}
+
+.tab-button:active {
+  background-color: var(--color-water-10);
+}
+
+.tab-button--active {
+  color: var(--color-nemo);
+}

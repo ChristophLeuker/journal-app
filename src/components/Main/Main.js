@@ -86,6 +86,7 @@ export default function Main() {
         onToggleFavorite={handleToggleFavorite}
         onShowFavoritesEntries={handleShowFavoritesEntries}
         onShowAllEntries={handleShowAllEntries}
+        filter={filter}
       />
     </>
   );
